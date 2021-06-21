@@ -1,0 +1,27 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: lightblue;
+}
+.wrapper{
+  width:80%;
+  margin:auto;
+  background-color:yellow;
+}
+.row{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+.card{
+  width:350px;
+  background-color:#ff0000;
+  color:yellow;
+}
+.card img{
+  width:350px;
+}
